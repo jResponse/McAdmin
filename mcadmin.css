@@ -1,0 +1,115 @@
+/***************************************************
+Copyright:jReply LLC, 2015. https://jresponse.net
+Demo:http://jresponse.co/readmin
+Comments & suggestions:contact@jreply.com
+Licensed MIT:http://choosealicense.com/licenses/mit/
+****************************************************/
+
+*{box-sizing:border-box;}
+.ui-widget-overlay{opacity:0.1 !important;}
+.divFootnote
+{
+ font-size:0.8em;
+	font-weight:bold;
+	color:blue;
+	background-color:silver;
+	border:1px solid silver;
+	border-radius:8px;
+	padding:0.5em;
+	margin:0.8em;
+}
+.divDia{display:none;font-size:0.8em;}
+#divInfo
+{
+ width:80%;
+ margin:auto;
+	margin-top:5em;
+	padding:0.5em;
+	border:1px solid black;
+	border-radius:8px;
+	text-align:center;
+}
+#divInfo td{border-style:none;padding-right:2em;}
+body{background-color:#4f4f4f;color:white;font-family:arial;}
+.lay,.xlay
+{
+ margin-top:0.2em;display:-webkit-flex;
+	margin-bottom:0.3em;
+ width:96%;/*border:1px solid red;*/
+}
+#pCopy{font-size:0.5em !important;color:silver !important;text-align:center}
+th,#divInfo
+{
+ background:-webkit-linear-gradient(277deg, rgb(248,255,255) 30%, rgb(197,227,245) 70%);
+ background:linear-gradient(277deg, rgb(248,255,255) 30%, rgb(197,227,245) 70%);
+	color:black;
+}
+.lay > select
+{color:white;padding-left:5px;padding-top:0px;border:1px solid silver;border-radius:10px;
+margin:0;-webkit-flex:3;
+-webkit-appearance:none;
+background:#2f2f2f url(https://jresponse.r.worldssl.net/ide/nimages/arrow_down.png) no-repeat center right;
+box-sizing:border-box;font-size:1em;outline:none}
+.lay > span,.xlay > span
+{text-align:right;padding-right:0.2em;font-size:0.8em;font-weight:bold;-webkit-flex:1;padding-top:0.3em;}
+.lay > input,.xlay > input
+{-webkit-flex:2;border-radius:8px;padding:0.3em;background-color:silver;}
+.lay > .divEd,.xlay > .divEd{-webkit-flex:2;max-height:12em;overflow-y:auto;}
+.divEd > table
+{
+ width:100%;
+	border:1px solid silver;
+	border-collapse:collapse;
+	background-color:#5A5656;
+	padding:0;
+	margin:0;
+	}
+	.xlay > input,.xlay > .divEd{-webkit-flex:6;}
+tr{margin:0;padding:0}
+td{border:1px solid silver;padding:0.2em;cursor:pointer;}
+.tlay{display:-webkit-flex;margin:0;padding:0;}
+.tlay > input{-webkit-flex:4;background-color:silver;}
+.tlay > div
+{
+ -webkit-flex:1;
+	margin:0;
+	padding:0;
+	padding-left:0.1em;
+	padding-top:0.1em;
+}
+.tlay > div > img
+{
+ width:22px;
+	height:22px;
+	cursor:pointer;
+	opacity:0.95;
+	padding:2px;
+}	
+.tlay > div > img:hover{opacity:1;border:2px solid silver;border-radius:26px;}
+h1{text-align:center;}
+#inpFilter{-webkit-flex:2;margin-left:0.5em;}
+#btnFilter{-webkit-flex:1;margin-left:0.5em;}
+.lay > textarea
+{
+ border:1px solid silver;
+	background-color:#4f4f4f;
+	color:white;
+	border-radius:8px;
+	padding:0.5em;
+	-webkit-flex:2;
+	height:12em;
+	resize:none;
+}
+.divBox
+{
+ -webkit-flex:3;
+	border-radius:8px;
+	padding:0.3em;
+	background-color:silver;
+	max-height:8em;
+ overflow-y:auto;
+}
+#selHits{padding:0.8em;}
+.flx {display:-webkit-flex}
+.flx div:first-child {-webkit-flex:1;}
+.flx div:nth-child(2) {-webkit-flex:4;text-align:right}
