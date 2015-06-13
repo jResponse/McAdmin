@@ -1,4 +1,4 @@
-<?php
+-<?php
 /***************************************************
 Copyright:jReply LLC, 2015. https://jresponse.net
 Demo:http://jresponse.co/readmin
@@ -28,8 +28,8 @@ Licensed MIT:http://choosealicense.com/licenses/mit/
 -->
 <head>
 <title>Memcached Web Admin GUI</title>
-<link rel="shortcut icon" href='https://jresponse.r.worldssl.net/ide/nimages/memcached.png'/>
-<link rel="stylesheet" href="https://jresponse.r.worldssl.net/styles/darkness.css" />
+<link rel="shortcut icon" href='https://1928868936.rsc.cdn77.org/ide/nimages/memcached.png'/>
+<link rel="stylesheet" href="https://1928868936.rsc.cdn77.org/styles/darkness.css" />
 <link rel='stylesheet' href='mcadmin.css'/>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
